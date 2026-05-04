@@ -6,6 +6,13 @@ import Footer from "@/components/layout/footer";
 export const metadata: Metadata = {
   title: "合瀬 雄紀 | Resume",
   description: "フルスタックエンジニアの職務経歴書",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+      { url: "/favicon.ico" },
+    ],
+    shortcut: [{ url: "/favicon.png", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({
