@@ -49,6 +49,7 @@ export default function Experience() {
               <div
                 key={j}
                 className="rounded-md border border-[#d0d7de] bg-[#f6f8fa] p-4"
+                data-print="card"
               >
                 <p className="font-semibold text-[#24292f]">{p.title}</p>
 

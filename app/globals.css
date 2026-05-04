@@ -47,7 +47,7 @@ a {
 @media print {
   @page {
     size: A4;
-    margin: 12mm;
+    margin: 8mm;
   }
 
   :root {
@@ -69,10 +69,20 @@ a {
     padding: 0 !important;
   }
 
-  section,
-  article,
-  aside,
-  div {
-    break-inside: avoid;
+  /* Avoid huge whitespace caused by aggressive break-avoid rules. */
+  [data-print="card"] {
+    break-inside: auto;
+    padding: 10px !important;
+  }
+
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+
+  ul,
+  ol {
+    break-inside: auto;
   }
 }

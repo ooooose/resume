@@ -7,6 +7,7 @@ export default function Portfolio() {
         <article
           key={p.name}
           className="rounded-md border border-[#d0d7de] bg-white p-4"
+          data-print="card"
         >
           <div className="flex items-start justify-between gap-3">
             <h3 className="text-sm font-semibold text-[#24292f]">{p.name}</h3>
