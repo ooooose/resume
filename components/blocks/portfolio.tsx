@@ -17,7 +17,7 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                リンク
+                サイト
               </a>
             ) : null}
           </div>

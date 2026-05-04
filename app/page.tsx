@@ -12,40 +12,40 @@ export default function Page() {
         <div className="border-b border-[#d0d7de] px-4">
           <nav
             aria-label="Sections"
-            className="flex gap-6 overflow-x-auto text-sm"
+            className="grid grid-cols-3 gap-x-3 gap-y-1 py-2 text-sm sm:flex sm:gap-6 sm:overflow-x-auto sm:py-0"
           >
             <a
-              className="border-b-2 border-transparent py-3 font-semibold text-[#24292f] hover:border-[#d0d7de]"
+              className="rounded-md px-2 py-2 text-center font-semibold text-[#24292f] hover:bg-[#f6f8fa] sm:rounded-none sm:px-0 sm:py-3 sm:text-left sm:hover:bg-transparent sm:hover:border-[#d0d7de] sm:border-b-2 sm:border-transparent"
               href="#overview"
             >
               概要
             </a>
             <a
-              className="border-b-2 border-transparent py-3 font-semibold text-[#24292f] hover:border-[#d0d7de]"
+              className="rounded-md px-2 py-2 text-center font-semibold text-[#24292f] hover:bg-[#f6f8fa] sm:rounded-none sm:px-0 sm:py-3 sm:text-left sm:hover:bg-transparent sm:hover:border-[#d0d7de] sm:border-b-2 sm:border-transparent"
               href="#skills"
             >
               スキル
             </a>
             <a
-              className="border-b-2 border-transparent py-3 font-semibold text-[#24292f] hover:border-[#d0d7de]"
+              className="rounded-md px-2 py-2 text-center font-semibold text-[#24292f] hover:bg-[#f6f8fa] sm:rounded-none sm:px-0 sm:py-3 sm:text-left sm:hover:bg-transparent sm:hover:border-[#d0d7de] sm:border-b-2 sm:border-transparent"
               href="#experience"
             >
               職務経歴
             </a>
             <a
-              className="border-b-2 border-transparent py-3 font-semibold text-[#24292f] hover:border-[#d0d7de]"
+              className="rounded-md px-2 py-2 text-center font-semibold text-[#24292f] hover:bg-[#f6f8fa] sm:rounded-none sm:px-0 sm:py-3 sm:text-left sm:hover:bg-transparent sm:hover:border-[#d0d7de] sm:border-b-2 sm:border-transparent"
               href="#self-pr"
             >
               自己PR
             </a>
             <a
-              className="border-b-2 border-transparent py-3 font-semibold text-[#24292f] hover:border-[#d0d7de]"
+              className="rounded-md px-2 py-2 text-center font-semibold text-[#24292f] hover:bg-[#f6f8fa] sm:rounded-none sm:px-0 sm:py-3 sm:text-left sm:hover:bg-transparent sm:hover:border-[#d0d7de] sm:border-b-2 sm:border-transparent"
               href="#certifications"
             >
               資格
             </a>
             <a
-              className="border-b-2 border-transparent py-3 font-semibold text-[#24292f] hover:border-[#d0d7de]"
+              className="rounded-md px-2 py-2 text-center font-semibold text-[#24292f] hover:bg-[#f6f8fa] sm:rounded-none sm:px-0 sm:py-3 sm:text-left sm:hover:bg-transparent sm:hover:border-[#d0d7de] sm:border-b-2 sm:border-transparent"
               href="#portfolio"
             >
               ポートフォリオ

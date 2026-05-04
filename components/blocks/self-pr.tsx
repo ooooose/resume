@@ -22,7 +22,16 @@ export default function SelfPr() {
               </div>
               <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-[#57606a]">
                 {item.references.map((r) => (
-                  <li key={r}>{r}</li>
+                  <li key={r.title}>
+                    <a
+                      href={r.href}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-[#0969da] hover:underline"
+                    >
+                      {r.title}
+                    </a>
+                  </li>
                 ))}
               </ul>
             </div>

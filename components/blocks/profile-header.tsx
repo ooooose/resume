@@ -25,17 +25,43 @@ export default function ProfileHeader() {
       </p>
 
       <div className="space-y-2 text-sm">
-        <a
-          href={profile.github}
-          target="_blank"
-          rel="noreferrer"
-          className="inline-flex items-center gap-2 text-[#0969da] hover:underline"
-        >
-          <span aria-hidden className="text-[#57606a]">
-            ↗
-          </span>
-          GitHub
-        </a>
+        <div className="flex flex-wrap gap-2">
+          <a
+            href={profile.github}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 text-[#0969da] hover:underline"
+          >
+            <span aria-hidden className="text-[#57606a]">
+              ↗
+            </span>
+            GitHub
+          </a>
+          <a
+            href={profile.qiita}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 text-[#0969da] hover:underline"
+          >
+            Qiita
+          </a>
+          <a
+            href={profile.zenn}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 text-[#0969da] hover:underline"
+          >
+            Zenn
+          </a>
+          <a
+            href={profile.note}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 text-[#0969da] hover:underline"
+          >
+            note
+          </a>
+        </div>
         <div className="text-[#57606a]">
           <span aria-hidden className="mr-2">
             ✉
