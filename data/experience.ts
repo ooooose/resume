@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    company: "イタンジ株式会社（旧Housmart）",
+    company: "イタンジ株式会社",
     period: "2024/08 - Present",
     role: "Fullstack Engineer",
     companyOverview: {

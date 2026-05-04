@@ -11,7 +11,7 @@ export default function SelfPr() {
           <h3 className="text-sm font-semibold text-[#24292f]">
             {item.heading}
           </h3>
-          <p className="mt-2 text-sm leading-relaxed text-[#57606a]">
+          <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-[#57606a]">
             {item.text}
           </p>
 
