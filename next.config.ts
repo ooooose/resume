@@ -1,8 +1,14 @@
 const nextConfig = {
   output: "export",
+
+  basePath: "/resume",
+  assetPrefix: "/resume/",
+
   images: {
     unoptimized: true,
   },
+
+  trailingSlash: true,
 }
 
-module.exports = nextConfig
+export default nextConfig
