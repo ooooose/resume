@@ -5,7 +5,7 @@ import Footer from "@/components/layout/footer";
 
 export const metadata: Metadata = {
   title: "合瀬 雄紀 | Resume",
-  description: "Fullstack Engineer Resume",
+  description: "フルスタックエンジニアの職務経歴書",
 };
 
 export default function RootLayout({

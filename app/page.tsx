@@ -1,6 +1,9 @@
 import ProfileHeader from "@/components/blocks/profile-header"
+import SelfPr from "@/components/blocks/self-pr"
+import Certifications from "@/components/blocks/certifications"
 import Skills from "@/components/blocks/skills"
 import Experience from "@/components/blocks/experience"
+import Portfolio from "@/components/blocks/portfolio"
 
 export default function Page() {
   return (
@@ -15,19 +18,37 @@ export default function Page() {
               className="border-b-2 border-transparent py-3 font-semibold text-[#24292f] hover:border-[#d0d7de]"
               href="#overview"
             >
-              Overview
+              概要
             </a>
             <a
               className="border-b-2 border-transparent py-3 font-semibold text-[#24292f] hover:border-[#d0d7de]"
               href="#skills"
             >
-              Skills
+              スキル
             </a>
             <a
               className="border-b-2 border-transparent py-3 font-semibold text-[#24292f] hover:border-[#d0d7de]"
               href="#experience"
             >
-              Experience
+              職務経歴
+            </a>
+            <a
+              className="border-b-2 border-transparent py-3 font-semibold text-[#24292f] hover:border-[#d0d7de]"
+              href="#self-pr"
+            >
+              自己PR
+            </a>
+            <a
+              className="border-b-2 border-transparent py-3 font-semibold text-[#24292f] hover:border-[#d0d7de]"
+              href="#certifications"
+            >
+              資格
+            </a>
+            <a
+              className="border-b-2 border-transparent py-3 font-semibold text-[#24292f] hover:border-[#d0d7de]"
+              href="#portfolio"
+            >
+              ポートフォリオ
             </a>
           </nav>
         </div>
@@ -45,7 +66,7 @@ export default function Page() {
               className="rounded-md border border-[#d0d7de] bg-white p-4"
             >
               <h2 className="mb-4 text-base font-semibold text-[#24292f]">
-                Skills
+                スキル
               </h2>
               <Skills />
             </section>
@@ -55,9 +76,39 @@ export default function Page() {
               className="rounded-md border border-[#d0d7de] bg-white p-4"
             >
               <h2 className="mb-4 text-base font-semibold text-[#24292f]">
-                Experience
+                職務経歴
               </h2>
               <Experience />
+            </section>
+
+            <section
+              id="self-pr"
+              className="rounded-md border border-[#d0d7de] bg-white p-4"
+            >
+              <h2 className="mb-4 text-base font-semibold text-[#24292f]">
+                自己PR
+              </h2>
+              <SelfPr />
+            </section>
+
+            <section
+              id="certifications"
+              className="rounded-md border border-[#d0d7de] bg-white p-4"
+            >
+              <h2 className="mb-4 text-base font-semibold text-[#24292f]">
+                資格
+              </h2>
+              <Certifications />
+            </section>
+
+            <section
+              id="portfolio"
+              className="rounded-md border border-[#d0d7de] bg-white p-4"
+            >
+              <h2 className="mb-4 text-base font-semibold text-[#24292f]">
+                ポートフォリオ
+              </h2>
+              <Portfolio />
             </section>
           </div>
         </div>

@@ -7,18 +7,27 @@ export default function Header() {
             aria-hidden
             className="h-6 w-6 rounded-md border border-[#d0d7de] bg-[#f6f8fa]"
           />
-          <span className="truncate text-sm font-semibold">合瀬 雄紀 | Resumep</span>
+          <span className="truncate text-sm font-semibold">職務経歴書</span>
         </div>
 
         <nav className="ml-auto hidden items-center gap-4 text-sm text-[#57606a] sm:flex">
           <a className="hover:text-[#24292f]" href="#overview">
-            Overview
+            概要
           </a>
           <a className="hover:text-[#24292f]" href="#skills">
-            Skills
+            スキル
           </a>
           <a className="hover:text-[#24292f]" href="#experience">
-            Experience
+            職務経歴
+          </a>
+          <a className="hover:text-[#24292f]" href="#self-pr">
+            自己PR
+          </a>
+          <a className="hover:text-[#24292f]" href="#certifications">
+            資格
+          </a>
+          <a className="hover:text-[#24292f]" href="#portfolio">
+            ポートフォリオ
           </a>
         </nav>
       </div>

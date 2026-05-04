@@ -15,7 +15,36 @@ export default function Experience() {
             <div className="text-sm text-[#57606a]">{exp.period}</div>
           </div>
 
-          <div className="mt-4 space-y-5">
+          <div className="mt-3 space-y-5">
+            <div>
+              <div className="text-sm font-semibold text-[#24292f]">
+                会社概要
+              </div>
+              <dl className="mt-2 grid gap-x-6 gap-y-2 text-sm sm:grid-cols-[160px_1fr]">
+                <dt className="text-[#57606a]">事業内容</dt>
+                <dd className="text-[#24292f]">{exp.companyOverview.business}</dd>
+
+                <dt className="text-[#57606a]">資本金</dt>
+                <dd className="text-[#24292f]">{exp.companyOverview.capital}</dd>
+
+                <dt className="text-[#57606a]">従業員数</dt>
+                <dd className="text-[#24292f]">
+                  {exp.companyOverview.employees}
+                </dd>
+
+                <dt className="text-[#57606a]">上場</dt>
+                <dd className="text-[#24292f]">{exp.companyOverview.listed}</dd>
+              </dl>
+            </div>
+          </div>
+
+          <div className="mt-6">
+            <div className="text-sm font-semibold text-[#24292f]">
+              参画プロジェクト
+            </div>
+          </div>
+
+          <div className="mt-3 space-y-5">
             {exp.projects.map((p, j) => (
               <div
                 key={j}
@@ -23,11 +52,26 @@ export default function Experience() {
               >
                 <p className="font-semibold text-[#24292f]">{p.title}</p>
 
-                <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-[#57606a]">
-                  {p.achievements.map((a, k) => (
-                    <li key={k}>{a}</li>
-                  ))}
-                </ul>
+                <div className="mt-3 space-y-4">
+                  <div>
+                    <div className="text-sm font-semibold text-[#24292f]">
+                      概要
+                    </div>
+                    <p className="mt-1 text-sm leading-relaxed text-[#57606a]">
+                      {p.overview}
+                    </p>
+                  </div>
+                  <div>
+                    <div className="text-sm font-semibold text-[#24292f]">
+                      実績
+                    </div>
+                    <ul className="mt-1 list-disc space-y-1 pl-5 text-sm text-[#57606a]">
+                      {p.achievements.map((a, k) => (
+                        <li key={k}>{a}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
 
                 <div className="mt-3 flex flex-wrap gap-2">
                   {p.tech.map((t) => (
