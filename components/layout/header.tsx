@@ -1,8 +1,12 @@
 import Image from "next/image";
+import PrintButton from "@/components/ui/print-button";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-40 border-b border-[#d0d7de] bg-white/80 backdrop-blur">
+    <header
+      className="sticky top-0 z-40 border-b border-[#d0d7de] bg-white/80 backdrop-blur"
+      data-print="hide"
+    >
       <div className="mx-auto flex h-14 max-w-6xl items-center gap-4 px-4">
         <div className="flex min-w-0 items-center gap-2">
           <Image
@@ -35,6 +39,10 @@ export default function Header() {
             ポートフォリオ
           </a>
         </nav>
+
+        <div className="ml-auto sm:ml-0 sm:pl-2">
+          <PrintButton />
+        </div>
       </div>
     </header>
   );

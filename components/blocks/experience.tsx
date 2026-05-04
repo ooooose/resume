@@ -61,6 +61,33 @@ export default function Experience() {
                       {p.overview}
                     </p>
                   </div>
+
+                  {p.scale?.users || p.scale?.team ? (
+                    <div>
+                      <div className="text-sm font-semibold text-[#24292f]">
+                        規模
+                      </div>
+                      <div className="mt-1 space-y-1 text-sm text-[#57606a]">
+                        {p.scale?.users ? (
+                          <div>ユーザー数: {p.scale.users}</div>
+                        ) : null}
+                        {p.scale?.team ? (
+                          <div>チーム人数: {p.scale.team}</div>
+                        ) : null}
+                      </div>
+                    </div>
+                  ) : null}
+
+                  {p.myScope ? (
+                    <div>
+                      <div className="text-sm font-semibold text-[#24292f]">
+                        自分の担当範囲
+                      </div>
+                      <p className="mt-1 text-sm leading-relaxed text-[#57606a]">
+                        {p.myScope}
+                      </p>
+                    </div>
+                  ) : null}
                   <div>
                     <div className="text-sm font-semibold text-[#24292f]">
                       実績

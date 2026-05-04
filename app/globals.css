@@ -43,3 +43,36 @@ a {
   outline: 2px solid rgba(9, 105, 218, 0.7);
   outline-offset: 2px;
 }
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+
+  :root {
+    color-scheme: light;
+  }
+
+  body {
+    background: white !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  [data-print="hide"] {
+    display: none !important;
+  }
+
+  main {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+
+  section,
+  article,
+  aside,
+  div {
+    break-inside: avoid;
+  }
+}

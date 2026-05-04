@@ -4,5 +4,10 @@ export const projects = [
     description: "お題に沿って絵を投稿するアプリ",
     tech: ["Next.js", "Rails"],
     link: "https://gahack.net",
+    scale: {
+      users: "",
+      team: "",
+    },
+    myScope: "",
   },
 ]

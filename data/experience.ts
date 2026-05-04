@@ -19,6 +19,11 @@ export const experiences = [
         title: "反響取込機能の開発",
         overview:
           "ログインが必要な外部サイト（HOME4U）から反響データを取り込み、顧客登録までを自動化する機能を開発。",
+        scale: {
+          users: "",
+          team: "",
+        },
+        myScope: "",
         achievements: [
           "ログインが必要な外部サイト（HOME4U）へのクローリング機能を構築",
           "SUUMO予約管理などの追加ポータルサイト取込機能を拡充",
@@ -31,6 +36,11 @@ export const experiences = [
         title: "媒介契約管理機能",
         overview:
           "不動産営業支援SaaS『PropoCloud』の保守運用および媒介契約管理機能の開発を担当。",
+        scale: {
+          users: "",
+          team: "",
+        },
+        myScope: "",
         achievements: [
           "バックエンド／フロントエンド中心の問い合わせ対応と保守改善",
           "特定企業向け媒介契約管理機能を汎用化し、MRR向上に寄与",
@@ -60,6 +70,11 @@ export const experiences = [
         title: "外国人就労者向けヘルスケアサービス改修",
         overview:
           "外国人就労者向けヘルスケアサービスの追加改修を担当し、機能性と運用性を向上。",
+        scale: {
+          users: "",
+          team: "",
+        },
+        myScope: "",
         achievements: [
           "Vue2からVue3へライブラリを移行",
           "PHP8のマイナーバージョンアップを実施",
@@ -73,6 +88,11 @@ export const experiences = [
         title: "プロンプトプラットフォームアプリ開発",
         overview:
           "OpenAI APIを活用したプロンプトプラットフォームの立ち上げと保守改善を担当。",
+        scale: {
+          users: "",
+          team: "",
+        },
+        myScope: "",
         achievements: [
           "技術選定と構築を担当",
           "Google／Microsoft認証を実装",
