@@ -63,15 +63,12 @@ export default function Experience() {
                     </p>
                   </div>
 
-                  {p.scale?.users || p.scale?.team ? (
+                  {p.scale?.team ? (
                     <div>
                       <div className="text-sm font-semibold text-[#24292f]">
                         規模
                       </div>
                       <div className="mt-1 space-y-1 text-sm text-[#57606a]">
-                        {p.scale?.users ? (
-                          <div>ユーザー数: {p.scale.users}</div>
-                        ) : null}
                         {p.scale?.team ? (
                           <div>チーム人数: {p.scale.team}</div>
                         ) : null}
