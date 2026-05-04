@@ -20,10 +20,9 @@ export const experiences = [
         overview:
           "ログインが必要な外部サイト（HOME4U）から反響データを取り込み、顧客登録までを自動化する機能を開発。",
         scale: {
-          users: "",
-          team: "",
+          team: "フルスタックエンジニア1名、PM1名、QA3名",
         },
-        myScope: "",
+        myScope: "バックエンド・フロントエンド・インフラ構築全般を担当。\nPython/Railsによるクローリング基盤の設計・実装、およびNuxt.jsフロントエンドの開発を担当。",
         achievements: [
           "ログインが必要な外部サイト（HOME4U）へのクローリング機能を構築",
           "SUUMO予約管理などの追加ポータルサイト取込機能を拡充",
@@ -37,10 +36,9 @@ export const experiences = [
         overview:
           "不動産営業支援SaaS『PropoCloud』の保守運用および媒介契約管理機能の開発を担当。",
         scale: {
-          users: "",
-          team: "",
+          team: "フルスタックエンジニア2名、QA3名",
         },
-        myScope: "",
+        myScope: "バックエンド・フロントエンド中心。\n問い合わせ対応と並行して機能開発を担当し、汎用化に必要な設計と実装を主導。",
         achievements: [
           "バックエンド／フロントエンド中心の問い合わせ対応と保守改善",
           "特定企業向け媒介契約管理機能を汎用化し、MRR向上に寄与",
@@ -71,10 +69,10 @@ export const experiences = [
         overview:
           "外国人就労者向けヘルスケアサービスの追加改修を担当し、機能性と運用性を向上。",
         scale: {
-          users: "",
-          team: "",
+          users: "月3,000人以上のサービス利用者",
+          team: "バックエンド2名、フロントエンド1名、PM1名",
         },
-        myScope: "",
+        myScope: "バックエンド（PHP/Laravel）とフロントエンド（Vue）を担当。Vue2→Vue3の移行、企業別認証基盤の構築、2段階認証機能の実装など全体を主導。",
         achievements: [
           "Vue2からVue3へライブラリを移行",
           "PHP8のマイナーバージョンアップを実施",
@@ -89,10 +87,10 @@ export const experiences = [
         overview:
           "OpenAI APIを活用したプロンプトプラットフォームの立ち上げと保守改善を担当。",
         scale: {
-          users: "",
-          team: "",
+          users: "ベータ期500ユーザー",
+          team: "バックエンド2名（FastAPI）、フロントエンド2名（Next.js）、PM1名",
         },
-        myScope: "",
+        myScope: "技術選定・スタック決定から実装まで全体を主導。特にFastAPI バックエンド、Next.js フロントエンド、OAuth認証、OpenAI API 連携を担当。",
         achievements: [
           "技術選定と構築を担当",
           "Google／Microsoft認証を実装",

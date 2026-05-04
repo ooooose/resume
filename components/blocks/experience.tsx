@@ -84,7 +84,7 @@ export default function Experience() {
                       <div className="text-sm font-semibold text-[#24292f]">
                         自分の担当範囲
                       </div>
-                      <p className="mt-1 text-sm leading-relaxed text-[#57606a]">
+                      <p className="mt-1 whitespace-pre-line text-sm leading-relaxed text-[#57606a]">
                         {p.myScope}
                       </p>
                     </div>
