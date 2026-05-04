@@ -13,19 +13,19 @@ export const profile = {
       references: [
         {
           title: "Dockerコンテナで開発するイメージ",
-          href: "https://qiita.com/yuuki_0524",
+          href: "https://qiita.com/yuuki_0524/items/77d4bb16ca67bb502ee7",
         },
         {
           title: "SQLAlchemy2.0によるDB操作方法",
-          href: "https://zenn.dev/ooooose",
+          href: "https://qiita.com/yuuki_0524/items/77522cf958def6693c6d",
         },
         {
           title: "FastAPIのCI環境を構築してみた",
-          href: "https://zenn.dev/ooooose",
+          href: "https://qiita.com/yuuki_0524/items/80006761f203c72bd6c5",
         },
         {
           title: "【SQLAlchemy】エラーから学ぶSession管理の重要性",
-          href: "https://zenn.dev/ooooose",
+          href: "https://zenn.dev/arsaga/articles/f431ee007efae9",
         },
       ],
     },
