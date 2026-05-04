@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    "Noto Sans JP",
+    "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN",
+    Meiryo,
+    Arial,
+    "Apple Color Emoji",
+    "Segoe UI Emoji";
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgba(9, 105, 218, 0.2);
+}
+
+a {
+  color: inherit;
+}
+
+*:focus-visible {
+  outline: 2px solid rgba(9, 105, 218, 0.7);
+  outline-offset: 2px;
+}
