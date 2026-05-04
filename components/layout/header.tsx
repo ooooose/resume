@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import PrintButton from "@/components/ui/print-button";
 
 export default function Header() {
@@ -16,7 +17,12 @@ export default function Header() {
             width={24}
             height={24}
           />
-          <span className="truncate text-sm font-semibold">職務経歴書</span>
+          <Link
+            href="/"
+            className="truncate text-sm font-semibold hover:text-[#24292f]"
+          >
+            職務経歴書
+          </Link>
         </div>
 
         <nav className="ml-auto hidden items-center gap-4 text-sm text-[#57606a] sm:flex">
