@@ -72,7 +72,7 @@ export const experiences = [
           users: "月3,000人以上のサービス利用者",
           team: "バックエンド2名、フロントエンド1名、PM1名",
         },
-        myScope: "バックエンド（PHP/Laravel）とフロントエンド（Vue）を担当。Vue2→Vue3の移行、企業別認証基盤の構築、2段階認証機能の実装など全体を主導。",
+        myScope: "バックエンド（PHP/Laravel）とフロントエンド（Vue）を担当。\nVue2→Vue3の移行、企業別認証基盤の構築、2段階認証機能の実装など主要機能の実装を担当。",
         achievements: [
           "Vue2からVue3へライブラリを移行",
           "PHP8のマイナーバージョンアップを実施",
@@ -90,7 +90,7 @@ export const experiences = [
           users: "ベータ期500ユーザー",
           team: "バックエンド2名（FastAPI）、フロントエンド2名（Next.js）、PM1名",
         },
-        myScope: "技術選定・スタック決定から実装まで全体を主導。特にFastAPI バックエンド、Next.js フロントエンド、OAuth認証、OpenAI API 連携を担当。",
+        myScope: "技術選定・スタック決定から実装まで全体を主導。\nFastAPI、Next.jsの構築、OAuth認証、OpenAI API連携の実装を担当。",
         achievements: [
           "技術選定と構築を担当",
           "Google／Microsoft認証を実装",
